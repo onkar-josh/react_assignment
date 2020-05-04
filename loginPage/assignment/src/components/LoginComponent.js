@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Container, Col, Button } from "react-bootstrap";
 
-//import Button from '../coreComponents/ButtonType'
 function LoginComponent() {
   return (
     <>

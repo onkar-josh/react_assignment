@@ -2,9 +2,7 @@ import React from 'react';
 
 import Slogan from './HomePageSlogan';
 import Peerly from './PeerlyLogo';
-import LoginComponent from './LoginComponent';
 import LoginRoute from './LoginRoutes';
-import LoginButton from '../coreComponents/LoginButton'
 import { Row, Container } from "react-bootstrap";
 const HomePageData = () =>{
   return(
@@ -13,7 +11,9 @@ const HomePageData = () =>{
         <Peerly/>
       </Row>
       <Row className="justify-content-md-center mt-5">
+        <div>
         <LoginRoute/>
+        </div>
       </Row>
       <Row className="justify-content-md-center mt-5">
         <Slogan/>
