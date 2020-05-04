@@ -12,7 +12,7 @@ function HomePageSlides() {
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
-          style={{ padding: '0px', height: '675px' }}
+          style={{ padding: '0px', height: '600px' }}
             className="d-block w-100"
             src={require('../images/1.jpg')}
           />
@@ -21,7 +21,7 @@ function HomePageSlides() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-          style={{ padding: '0px', height: '635px' }}
+          style={{ padding: '0px', height: '600px' }}
             className="d-block w-100"
             src={require('../images/2.jpg')} 
           />
@@ -30,7 +30,7 @@ function HomePageSlides() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-          style={{ padding: '0px', height: '635px' }}
+          style={{ padding: '0px', height: '600px' }}
             className="d-block w-100"
             src={require('../images/3.jpg')}
           />
