@@ -1,6 +1,6 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 
-const InputText = () =>{
+const InputText = () => {
 
 }
 export default InputText;

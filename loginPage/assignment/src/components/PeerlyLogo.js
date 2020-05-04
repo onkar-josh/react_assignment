@@ -1,11 +1,12 @@
-import React  from 'react';
+import React from 'react';
 
 function PeerlyLogo() {
-  return(
-  <>
-  <h3>Peerly
-  </h3>
-  </>
+  return (
+    <>
+      <h3>
+        Peerly
+      </h3>
+    </>
   );
 }
 export default PeerlyLogo;

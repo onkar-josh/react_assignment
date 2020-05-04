@@ -1,4 +1,4 @@
-import React  from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,7 +8,7 @@ import {
 
 import LoginButton from '../coreComponents/LoginButton'
 function LoginComponent() {
-  return(
+  return (
     <Router>
       <Link to="/sign-up"> sign-up </Link>&nbsp;&nbsp;&nbsp;&nbsp;
       <Link to="/login">  login  </Link>
